@@ -1,0 +1,7 @@
+@font-face {
+    font-family: GILORY;
+    src: url('../fonts/gilory.ttf') format("truetype");
+}
+*{
+    font-family: GILORY;
+}

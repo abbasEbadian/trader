@@ -1,0 +1,310 @@
+@media (max-width: 768px){
+  
+
+    /* haeder */
+    .header-box a.btn-download {
+        text-decoration: none;
+        background-color: var(--blue);
+        border-radius: 30px;
+        color: var(--span-color);
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+    .text-main-intro{
+        display: none;
+    }
+    .header-box a.logo-trader svg {
+        
+        width: 106px;
+
+        height: 18.6px;
+    
+    }
+    .header-box .content{
+        border-bottom: 1px solid #363947;
+        padding-inline: 16px;
+        padding-block: 12px;
+      
+    }
+    div.main-intro-box-mobile .haaleh {
+        
+        top: -20vw;
+        width: 80vw;
+        height: 40vw;
+        z-index: 1;
+        left: 7vw;
+    }
+    /* mainintro */
+   
+    .main-intro-box-mobile{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-block: 24px;
+        padding-inline: 16px;
+    }
+    .main-intro-box-mobile span.for-traders{
+        font-size: 15px;
+        color: var(--blue);
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+    .main-intro-box-mobile h2.trade-title{
+        font-size: 24px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.33;
+        color: var(--span-color);
+    }
+    .app-stor-logos{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        margin-top: 24px;
+    }
+    .app-stor-logos .google-stor svg{
+        width:96.8px;
+        height:29.6px;
+    }
+    .app-stor-logos .app-stor svg{
+        width:98px;
+        height:31px;
+    }
+    /* silder */
+    .slider-box {
+      display: none;
+    }
+    /* what we do */
+    .whatwedo-box{
+        padding: 0px 16px;
+    }
+    .text-wedo-box {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 37px;
+        margin-bottom: 24px;
+     
+    }
+    p.wedo-dec {
+        color: var(--span-color);
+        font-size: 20px;
+        font-weight: 500;
+        text-align: left;
+    }
+    .wedo-aitem {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 25px;
+    }
+    .wedo-aitem svg {
+        width: 42px;
+        height: 42px;
+
+    }
+    .wedo-aitem span.wedo-title {
+        font-size: 18px;
+        margin-bottom: 0px;
+        margin-top: 16px;
+    }
+    span.wedo-text {
+        font-size: 12px;
+    }
+    .wedo-aitem-box svg{
+        display:none;
+    }
+    .wedo-webicon{
+        background-color: var(--dark);
+        padding: 5px;
+        border-radius: 12px;
+    }
+    /* Statistics */
+    .Statistics-body {
+        padding-inline: 16px;
+        margin-block: 32px;
+    }
+    .statistics-left .statistics2 {
+        display: none;
+    }
+    .statistics-left .statistics3{
+        
+        font-size: 20px;
+        color: var(--span-color);
+        font-weight: 600;
+      
+    }
+    .statistics-left {
+    
+        margin-right: 0px;
+    }
+    p.statistics-p {
+        font-size: 13px;
+        margin-top: 8px;
+        font-weight: 500;
+        color: var(--text-color);
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.4;
+    }
+  
+    .trader-stati-box {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: var(--dark-blue);
+        padding-block: 18px;
+        border-radius: 16px;
+        padding-left: 16px;
+        margin-bottom: 12px;
+    }
+    h3.number-statistics {
+        font-size: 19px;
+    
+    }
+    .trader-stati-text {
+        font-size: 13px;
+   
+    }
+    h3.unlimited{
+        display: none;
+    }
+  
+    .community-body .community-right svg{
+      display: none;
+    }
+    .community-body {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        background-color: var(--blue);
+        border-radius: 12px;
+        margin-inline:16px ;
+        padding-top: 24px;
+        padding-inline: 16px;
+        margin-bottom: 23px;
+        
+      
+    }
+    .community-aitem {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .community-aitem .community-text {
+        font-size: 20px;
+        color: var(--span-color);
+        font-weight: 500;
+        margin-bottom: 16px;
+        text-align: center;
+        margin-top: 24px;
+    }
+    .link-community a.svg-mob{
+        display: none;
+    }
+    .community-right  svg{
+        display: none;
+    }
+    /* footer */
+    .social-icon-aitem{
+        display: none;
+    }
+    .footer-box-right{
+        display: none;
+    }
+    .text-footer{
+        color: var(--span-color);
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .logo-footer-box svg{
+        height: 13.7px;
+        width: 12.2px;
+    }
+    .logo-footer-box span.UltraTrader-text {
+        color: var(--span-color);
+        font-size: 20px;
+        margin-left: 12px;
+    }
+    .logo-footer-box {
+      margin-bottom: 16px;
+    }
+    .footer-body {
+       padding-inline: 16px;
+        padding-top: 16px;
+        padding-bottom: 12px;
+        border-top: 1px solid #363947;
+    }
+    a.email-trader{
+        color: var(--blue);
+        font-size: 13px;
+        text-decoration: none;
+        margin-bottom: 24px;
+        margin-top: 8px;
+    }
+    span.copy-right {
+        color: var(--text-color);
+        margin-bottom: 0px;
+        font-size: 13px;
+    }
+    /* accordion */
+    .step1{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    [class*="step-img-box"]{
+        overflow: hidden;
+    }
+    [class*="step-img-box"] img{
+        opacity: 0;
+        transform: translateY(100%) ;
+        transition: 0.5s;
+    }
+    [class*="step-img-box"] img.visible{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+    /* End Accordion */
+    .moblie-wedo{
+        display: none;
+    }
+    /* Scroll */
+    .Scroll-body{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 32px;
+
+    }
+    .Scroll-aitems{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        overflow: scroll;
+        scrollbar-width: none;
+        min-width: 360px;
+    }
+    /* chart */
+    .chart-mobile {
+     
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+        width: 100%;
+
+    }
+    .chart-mobile img{
+        width: 100%;
+    }
+    .chart2,.chart1,.chart{
+        margin-bottom: 16px;
+    }
+
+  
+    
+}
