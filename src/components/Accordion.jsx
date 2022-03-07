@@ -1,7 +1,7 @@
 import React from 'react'
-import step1 from '../assets/img/step1.png'
-import step2 from '../assets/img/step2.png'
-import step3 from '../assets/img/step3.png'
+import step1 from '../assets/Desktop/addsetupmock-1@2x.png'
+import step2 from '../assets/Desktop/i-phone-12-promini-1-2@2x.png'
+import step3 from '../assets/Desktop/tradeanalysismock-1.png'
 import VisibilitySensor from "react-visibility-sensor";
 
 function Accordion() {

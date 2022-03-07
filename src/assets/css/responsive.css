@@ -1,6 +1,8 @@
 @media (max-width: 768px){
   
-
+    [class*=step-img-box] img{
+        width: 200px;
+    }
     /* haeder */
     .header-box a.btn-download {
         text-decoration: none;

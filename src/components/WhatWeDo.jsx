@@ -11,9 +11,9 @@ function WhatWeDo() {
     gsap.fromTo('span.whatwedo', {opacity: 0, y: 35}, {opacity: 1, y: 0, duration: 0.4, scrollTrigger:'span.whatwedo'})
     gsap.fromTo('p.wedo-dec', {opacity: 0, y: 35}, {opacity: 1, y: 0, duration: 0.4,delay:0.4, scrollTrigger:'p.wedo-dec'})
     if (window.innerWidth > 768){
-      gsap.fromTo('.wedo-aitem-box > div', {opacity: 0, y: 35}, {opacity: 1, y: 0, delay: 0.4,duration: 0.4, stagger:{amount:0.8}, scrollTrigger: '.wedo-aitem-box'})
+      gsap.fromTo('.wedo-aitem-box > div', {opacity: 0, y: 35}, {opacity: 1, y: 0, delay: 0.2,duration: 0.4, stagger:{amount:0.8}, scrollTrigger: `.wedo-aitem-box > div:nth-of-type(${6})`})
     }else{
-      gsap.fromTo(`.wedo-aitem-box > div`, {opacity: 0, y: 35}, {opacity: 1, y: 0, delay: 0.2,duration: 0.4, stagger:{amount:0.8}, scrollTrigger: `.wedo-aitem-box > div:nth-of-type(${2})`})
+      gsap.fromTo(`.wedo-aitem-box > div`, {opacity: 0, y: 35}, {opacity: 1, y: 0, delay: 0.2,duration: 0.4, stagger:{amount:0.8}, scrollTrigger: `.wedo-aitem-box > div:nth-of-type(${3})`})
     }
     gsap.fromTo('.accordion-container [class*=col]', {opacity: 0, y: 35}, {opacity: 1, y: 0, delay: 0.5,duration: 0.4, stagger:{amount:0.4}, scrollTrigger:'div.accordion-container '})
     gsap.fromTo('span.How-its-done', {opacity: 0, y: 35}, {opacity: 1, y: 0, duration: 0.4, scrollTrigger:'span.How-its-done'})

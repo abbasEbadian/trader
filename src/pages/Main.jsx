@@ -10,7 +10,7 @@ import Community from '../components/Community'
 import Accordion from '../components/Accordion'
 import AccordionDesktop from '../components/AccordionDesktop'
 import Chart from '../components/Chart'
-import AOS from 'aos'
+
 function Main() {
   
   return (<>

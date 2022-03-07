@@ -33,7 +33,7 @@ function Statistics() {
                 if(curr === value1Max)
                     clearTimeout(window.inter1)
 
-            }, 1)
+            },  50)
         }
     }, [visibility, value1])
 
@@ -45,7 +45,7 @@ function Statistics() {
                     setValue2(curr)
                 if(curr === value2Max)
                     clearTimeout(window.inter2)
-            }, 10)
+            }, 50)
         }
     }, [visibility, value2])
 
@@ -57,7 +57,7 @@ function Statistics() {
                     setValue3(curr)
                 if(curr === value3Max)
                     clearTimeout(window.inter3)
-            }, 1)
+            }, 50)
         }
     }, [visibility, value3])
     React.useEffect(()=>{
@@ -68,7 +68,7 @@ function Statistics() {
                     setValue4(curr)
                 if(curr === value4Max)
                     clearTimeout(window.inter4)
-            }, 1)
+            }, 50)
         }
     }, [visibility, value4])
 
