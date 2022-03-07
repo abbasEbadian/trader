@@ -17,14 +17,14 @@ function Main() {
         <Header/>
         <div className='container'>
           <MainIntro/>
-          <section data-aos="fade-up"><Chart/></section>
-          <section data-aos="fade-up"><Slider/></section>
-          <section data-aos="fade-up"><WhatWeDo/></section>
-          <section data-aos="fade-up"><Accordion/></section>
-          <section data-aos="fade-up"><AccordionDesktop/></section>
-          <section data-aos="fade-up"><Statistics/></section>
-          <section data-aos="fade-up"><Scroll/></section>
-          <section data-aos="fade-up"><Community/></section>
+          <Chart/>
+          <Slider/>
+          <WhatWeDo/>
+          <Accordion/>
+          <AccordionDesktop/>
+          <Statistics/>
+          <Scroll/>
+          <Community/>
         </div>
         <Footer/>
     </>

@@ -1,7 +1,9 @@
 import React from 'react'
 import ReactVisibilitySensor from 'react-visibility-sensor'
-
+import gsap from 'gsap'
+import {ScrollTrigger} from 'gsap/all'
 function Statistics() {
+    gsap.registerPlugin(ScrollTrigger)
     const value1Max = 2431
     const value1Inc = 20
     
@@ -70,7 +72,10 @@ function Statistics() {
         }
     }, [visibility, value4])
 
-    
+    React.useEffect(()=>{
+        gsap.fromTo('.statistics-left > *, .Statistics-right > div', {opacity: 0, y: 35}, {opacity: 1, y: 0, delay: 0.2,duration: 0.4, stagger:{amount:0.4}, scrollTrigger:'#statistics'})
+
+    },[])
   return (
     <div>
         <div id='statistics' className="Statistics-body row">

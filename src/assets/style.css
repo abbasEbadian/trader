@@ -23,7 +23,10 @@
     font-size: 18px;
     padding: 14px 37px;
 }
-
+.trade-title{
+    font-size: 50px;
+    text-align: center;
+}
 
 
 .header-box .content{
@@ -159,8 +162,8 @@ span.whatwedo{
     font-size: 24px;
     color: var(--blue);
     font-weight: 900;
-
 }
+
 p.wedo-dec{
     color: var(--span-color);
     font-size:45px;
@@ -176,7 +179,13 @@ p.wedo-dec{
     flex-direction: column;
     align-items: center;
     margin-bottom: 83px;
-
+}
+.wedo-aitem svg{
+    background: #1A1D2E;
+    border-radius: 12px;
+    padding: 8px;
+    width: 69px;
+    height: 69px;
 }
 .wedo-aitem span.wedo-title{
     font-size: 24px;
@@ -184,8 +193,10 @@ p.wedo-dec{
     font-weight: bold;
     margin-bottom: 12px;
     margin-top: 24px;
+    text-align: center;
 }
 span.wedo-text{
+    text-align: center;
     line-height: 1.56;
     font-size: 18px;
     font-weight: 500;

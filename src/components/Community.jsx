@@ -1,6 +1,13 @@
 import React from 'react'
 import undraw from '../assets/img/undraw_Outer.png'
+import gsap from 'gsap'
+import {ScrollTrigger} from 'gsap/all'
 function Community() {
+    gsap.registerPlugin(ScrollTrigger)
+    React.useEffect(()=>{
+        gsap.fromTo('#community', {opacity: 0, y: 35}, {opacity: 1, y: 0, delay: 0.2,duration: 0.4, scrollTrigger:'#community'})
+
+    },[])
   return (
     <div>
         <div  id='community' className="community-body ">

@@ -56,6 +56,10 @@
         font-style: normal;
         line-height: 1.33;
         color: var(--span-color);
+        text-align: left;
+    }
+    .trade-title br{
+        display: none;
     }
     .app-stor-logos{
         display: flex;
@@ -102,7 +106,7 @@
     .wedo-aitem svg {
         width: 42px;
         height: 42px;
-
+        padding: 4px;
     }
     .wedo-aitem span.wedo-title {
         font-size: 18px;
@@ -112,9 +116,7 @@
     span.wedo-text {
         font-size: 12px;
     }
-    .wedo-aitem-box svg{
-        display:none;
-    }
+    
     .wedo-webicon{
         background-color: var(--dark);
         padding: 5px;

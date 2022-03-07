@@ -8,9 +8,9 @@ function MainIntro() {
             <div className="haaleh"></div>
 
             <span className="for-traders">By traders, for traders</span>
-            <span className='text-main-intro'>The crypto trader tracker</span>
-            <span className='text-main-intro'>for next level traders</span>
-            <h2 className='trade-title d-lg-none'>The crypto trade tracking app you can rely on</h2>
+            {/* <span className='text-main-intro'>The crypto trader tracker</span>
+            <span className='text-main-intro'>for next level traders</span> */}
+            <h2 className='trade-title text-white '>The crypto trade tracking <br /> app you can rely on</h2>
             <div className="app-stor-logos">
                 <a href="#" className='btn-community google-stor me-4'>
                     <svg width="193" height="61" viewBox="0 0 160 48" fill="none" xmlns="http://www.w3.org/2000/svg">
